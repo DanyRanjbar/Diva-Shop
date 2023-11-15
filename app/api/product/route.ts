@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       category,
       inStock,
       images,
-      price: parseFloat,
+      price: parseFloat(price),
     },
   });
 
