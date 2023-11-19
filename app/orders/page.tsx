@@ -1,5 +1,5 @@
 import Container from "@/app/components/Container";
-import getProducts from "@/actions/getProduct";
+import getProducts from "@/actions/getProducts";
 import { getCurrentUser } from "@/actions/getCurrentUser";
 import NullData from "@/app/components/NullData";
 import OrdersClient from "./OrderClient";
