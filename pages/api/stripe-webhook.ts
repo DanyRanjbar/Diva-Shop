@@ -1,7 +1,7 @@
 import Stripe from "stripe";
 import { NextApiRequest, NextApiResponse } from "next";
 import { buffer } from "micro";
-import { type } from "os";
+import prisma from "@/libs/prismadb";
 
 export const config = {
   api: {
